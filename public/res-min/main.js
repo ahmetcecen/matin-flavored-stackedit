@@ -6913,7 +6913,7 @@ var saveAs = saveAs || function(e) {
  e.TEMPORARY_FILE_INDEX = "file.tempIndex", e.WELCOME_DOCUMENT_TITLE = "Hello!", 
  e.DOWNLOAD_IMPORT_URL = "/downloadImport", e.PICASA_IMPORT_IMG_URL = "/picasaImportImg", 
  e.SSH_PUBLISH_URL = "/sshPublish", e.PDF_EXPORT_URL = "/pdfExport", e.COUCHDB_URL = "https://stackedit.smileupps.com/documents", 
- e.BASE_URL = "http://localhost/", e.GOOGLE_CLIENT_ID = "241271498917-lev37kef013q85avc91am1gccg5g8lrb.apps.googleusercontent.com", 
+ e.BASE_URL = "https://matin-flavored-stackedit.herokuapp.com/", e.GOOGLE_CLIENT_ID = "241271498917-lev37kef013q85avc91am1gccg5g8lrb.apps.googleusercontent.com", 
  e.GITHUB_CLIENT_ID = "e47fef6055344579799d", e.GATEKEEPER_URL = "https://stackedit-gatekeeper-localhost.herokuapp.com/", 
  e.TUMBLR_PROXY_URL = "https://stackedit-tumblr-proxy-local.herokuapp.com/", e.WORDPRESS_CLIENT_ID = "23361", 
  e.WORDPRESS_PROXY_URL = "https://stackedit-io-wordpress-proxy.herokuapp.com/", 0 === location.hostname.indexOf("stackedit.io") ? (e.BASE_URL = e.MAIN_URL, 
@@ -6927,10 +6927,12 @@ var saveAs = saveAs || function(e) {
  e.GOOGLE_CLIENT_ID = "241271498917-9bbplknkt0ljv5gaudhoiogp13hd18be.apps.googleusercontent.com", 
  e.GITHUB_CLIENT_ID = "e9034ae191c3a8a1c5ed", e.GATEKEEPER_URL = "https://stackedit-beta-gatekeeper.herokuapp.com/", 
  e.TUMBLR_PROXY_URL = "https://stackedit-beta-tumblr-proxy.herokuapp.com/", e.WORDPRESS_CLIENT_ID = "34786", 
- e.WORDPRESS_PROXY_URL = "https://stackedit-beta-wordpress-proxy.herokuapp.com/") : 0 === location.hostname.indexOf("benweet.insomnia247.nl") && (e.BASE_URL = "http://benweet.insomnia247.nl/stackedit/", 
+ e.WORDPRESS_PROXY_URL = "https://stackedit-beta-wordpress-proxy.herokuapp.com/") : 0 === location.hostname.indexOf("benweet.insomnia247.nl") ? (e.BASE_URL = "http://benweet.insomnia247.nl/stackedit/", 
  e.GOOGLE_CLIENT_ID = "241271498917-52hae7a08hv7ltenv7km8h7lghno9sk3.apps.googleusercontent.com", 
  e.GITHUB_CLIENT_ID = "d2943d6074b2d9c4a830", e.GATEKEEPER_URL = "https://stackedit-gatekeeper-insomnia.herokuapp.com/", 
- e.TUMBLR_PROXY_URL = "https://stackedit-tumblr-proxy-beta.herokuapp.com/"), e.THEME_LIST = {
+ e.TUMBLR_PROXY_URL = "https://stackedit-tumblr-proxy-beta.herokuapp.com/") : 0 === location.hostname.indexOf("matin-flavored-stackedit.herokuapp.com") && (e.BASE_URL = "https://matin-flavored-stackedit.herokuapp.com/", 
+ e.GOOGLE_CLIENT_ID = "6661919703-bq691f2tjn546b7j7g7dlv5tp2dekjc5.apps.googleusercontent.com", 
+ e.GITHUB_CLIENT_ID = "2cc69abccac77a6fe816"), e.THEME_LIST = {
   blue: "Blue",
   "default": "Default",
   gray: "Gray",

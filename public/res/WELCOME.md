@@ -60,7 +60,7 @@ tags: 		result
 
 Hover your pointer over the image to expand the view.
 
-![Description](http://img3.wikia.nocookie.net/__cb20140102180853/fairytail/images/5/5b/Logo_Fairy_Tail_right.png)
+![Description](imagelink)
 
 #Code:
 
