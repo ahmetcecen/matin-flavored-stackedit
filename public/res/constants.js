@@ -1,15 +1,20 @@
 define([], function() {
 	var constants = {};
-	constants.VERSION = "4.3.11";
-	constants.MAIN_URL = "https://stackedit.io/"; // EDIT THIS
-	constants.GOOGLE_ANALYTICS_ACCOUNT_ID = "UA-39556145-1"; // EDIT THIS
-	constants.GOOGLE_API_KEY = "AIzaSyAeCU8CGcSkn0z9js6iocHuPBX4f_mMWkw"; // EDIT THIS
-	constants.GOOGLE_DRIVE_APP_ID = "241271498917";
+	constants.VERSION = "1.0.0";
+	constants.MAIN_URL = "https://matin-flavored-stackedit.herokuapp.com/"; 
+	constants.GOOGLE_ANALYTICS_ACCOUNT_ID = "UA-65639202-1";
+	constants.GOOGLE_API_KEY = "AIzaSyAWRIP30sewotZNcQylIu8UUthPLGX08QY"; 
+	constants.GOOGLE_DRIVE_APP_ID = "6661919703";	
+	constants.BASE_URL = "https://matin-flavored-stackedit.herokuapp.com/";
+	constants.GOOGLE_CLIENT_ID = '6661919703-bq691f2tjn546b7j7g7dlv5tp2dekjc5.apps.googleusercontent.com';
+	constants.GITHUB_CLIENT_ID = '2cc69abccac77a6fe816';
+	constants.GATEKEEPER_URL = "https://mfs-gatekeeper.herokuapp.com/";
+
+	// No Need to Edit Below
 	constants.DROPBOX_APP_KEY = "lq6mwopab8wskas";
 	constants.DROPBOX_APP_SECRET = "851fgnucpezy84t";
 	constants.DROPBOX_RESTRICTED_APP_KEY = "sw0hlixhr8q1xk0";
 	constants.DROPBOX_RESTRICTED_APP_SECRET = "1r808p2xygs6lbg";
-	// No Need to Edit Below
 	constants.BITLY_ACCESS_TOKEN = "317e033bfd48cf31155a68a536b1860013b09c4c";
 	constants.DEFAULT_FILE_TITLE = "Title";
 	constants.DEFAULT_FOLDER_NAME = "New folder";
@@ -31,15 +36,6 @@ define([], function() {
 	constants.PDF_EXPORT_URL = "/pdfExport";
 	constants.COUCHDB_URL = 'https://stackedit.smileupps.com/documents';
 
-	// Site dependent GO DOWN FOR SITE ELSE IF
-	constants.BASE_URL = "https://matin-flavored-stackedit.herokuapp.com/";
-	constants.GOOGLE_CLIENT_ID = '241271498917-lev37kef013q85avc91am1gccg5g8lrb.apps.googleusercontent.com';
-	constants.GITHUB_CLIENT_ID = 'e47fef6055344579799d';
-	constants.GATEKEEPER_URL = "https://stackedit-gatekeeper-localhost.herokuapp.com/";
-	constants.TUMBLR_PROXY_URL = "https://stackedit-tumblr-proxy-local.herokuapp.com/";
-	constants.WORDPRESS_CLIENT_ID = '23361';
-	constants.WORDPRESS_PROXY_URL = "https://stackedit-io-wordpress-proxy.herokuapp.com/";
-
 	if(location.hostname.indexOf("stackedit.io") === 0) {
 		constants.BASE_URL = constants.MAIN_URL;
 		constants.GOOGLE_CLIENT_ID = '241271498917-t4t7d07qis7oc0ahaskbif3ft6tk63cd.apps.googleusercontent.com';
@@ -55,29 +51,6 @@ define([], function() {
 		constants.TUMBLR_PROXY_URL = "https://stackedit-tumblr-proxy.herokuapp.com/";
 		constants.WORDPRESS_CLIENT_ID = '3185';
 		constants.WORDPRESS_PROXY_URL = "https://stackedit-wordpress-proxy.herokuapp.com/";
-	}
-	else if(location.hostname.indexOf("stackedit-beta.herokuapp.com") === 0) {
-		constants.BASE_URL = 'https://stackedit-beta.herokuapp.com/';
-		constants.GOOGLE_CLIENT_ID = '241271498917-9bbplknkt0ljv5gaudhoiogp13hd18be.apps.googleusercontent.com';
-		constants.GITHUB_CLIENT_ID = 'e9034ae191c3a8a1c5ed';
-		constants.GATEKEEPER_URL = "https://stackedit-beta-gatekeeper.herokuapp.com/";
-		constants.TUMBLR_PROXY_URL = "https://stackedit-beta-tumblr-proxy.herokuapp.com/";
-		constants.WORDPRESS_CLIENT_ID = '34786';
-		constants.WORDPRESS_PROXY_URL = "https://stackedit-beta-wordpress-proxy.herokuapp.com/";
-	}
-	else if(location.hostname.indexOf("benweet.insomnia247.nl") === 0) {
-		constants.BASE_URL = "http://benweet.insomnia247.nl/stackedit/";
-		constants.GOOGLE_CLIENT_ID = '241271498917-52hae7a08hv7ltenv7km8h7lghno9sk3.apps.googleusercontent.com';
-		constants.GITHUB_CLIENT_ID = 'd2943d6074b2d9c4a830';
-		constants.GATEKEEPER_URL = "https://stackedit-gatekeeper-insomnia.herokuapp.com/";
-		constants.TUMBLR_PROXY_URL = "https://stackedit-tumblr-proxy-beta.herokuapp.com/";
-	}
-	// Add Else If for Different Domains!!!!
-	else if(location.hostname.indexOf("matin-flavored-stackedit.herokuapp.com") === 0) {
-		constants.BASE_URL = "https://matin-flavored-stackedit.herokuapp.com/";
-		constants.GOOGLE_CLIENT_ID = '6661919703-bq691f2tjn546b7j7g7dlv5tp2dekjc5.apps.googleusercontent.com';
-		constants.GITHUB_CLIENT_ID = '2cc69abccac77a6fe816';
-		constants.GATEKEEPER_URL = "https://mfs-gatekeeper.herokuapp.com/";
 	}
 
 	constants.THEME_LIST = {
