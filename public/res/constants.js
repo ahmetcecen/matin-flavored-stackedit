@@ -78,6 +78,7 @@ define([], function() {
 		constants.BASE_URL = "https://matin-flavored-stackedit.herokuapp.com/";
 		constants.GOOGLE_CLIENT_ID = '6661919703-bq691f2tjn546b7j7g7dlv5tp2dekjc5.apps.googleusercontent.com';
 		constants.GITHUB_CLIENT_ID = '2cc69abccac77a6fe816';
+		constants.GATEKEEPER_URL = "https://stackedit-io-tumblr-proxy.herokuapp.com/";
 	}
 
 	constants.THEME_LIST = {
