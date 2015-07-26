@@ -1,6 +1,6 @@
 define([], function() {
 	var constants = {};
-	constants.VERSION = "1.0.0";
+	constants.VERSION = "4.3.11";
 	constants.MAIN_URL = "https://matin-flavored-stackedit.herokuapp.com/"; 
 	constants.GOOGLE_ANALYTICS_ACCOUNT_ID = "UA-65639202-1";
 	constants.GOOGLE_API_KEY = "AIzaSyAWRIP30sewotZNcQylIu8UUthPLGX08QY"; 
