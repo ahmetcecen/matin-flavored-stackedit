@@ -35,7 +35,6 @@ define([], function() {
 	constants.BASE_URL = "https://matin-flavored-stackedit.herokuapp.com/";
 	constants.GOOGLE_CLIENT_ID = '241271498917-lev37kef013q85avc91am1gccg5g8lrb.apps.googleusercontent.com';
 	constants.GITHUB_CLIENT_ID = 'e47fef6055344579799d';
-	// No Need to Edit Below
 	constants.GATEKEEPER_URL = "https://stackedit-gatekeeper-localhost.herokuapp.com/";
 	constants.TUMBLR_PROXY_URL = "https://stackedit-tumblr-proxy-local.herokuapp.com/";
 	constants.WORDPRESS_CLIENT_ID = '23361';
@@ -78,7 +77,7 @@ define([], function() {
 		constants.BASE_URL = "https://matin-flavored-stackedit.herokuapp.com/";
 		constants.GOOGLE_CLIENT_ID = '6661919703-bq691f2tjn546b7j7g7dlv5tp2dekjc5.apps.googleusercontent.com';
 		constants.GITHUB_CLIENT_ID = '2cc69abccac77a6fe816';
-		constants.GATEKEEPER_URL = "https://stackedit-io-tumblr-proxy.herokuapp.com/";
+		constants.GATEKEEPER_URL = "https://mfs-gatekeeper.herokuapp.com/";
 	}
 
 	constants.THEME_LIST = {
