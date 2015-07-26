@@ -6932,7 +6932,7 @@ var saveAs = saveAs || function(e) {
  e.GITHUB_CLIENT_ID = "d2943d6074b2d9c4a830", e.GATEKEEPER_URL = "https://stackedit-gatekeeper-insomnia.herokuapp.com/", 
  e.TUMBLR_PROXY_URL = "https://stackedit-tumblr-proxy-beta.herokuapp.com/") : 0 === location.hostname.indexOf("matin-flavored-stackedit.herokuapp.com") && (e.BASE_URL = "https://matin-flavored-stackedit.herokuapp.com/", 
  e.GOOGLE_CLIENT_ID = "6661919703-bq691f2tjn546b7j7g7dlv5tp2dekjc5.apps.googleusercontent.com", 
- e.GITHUB_CLIENT_ID = "2cc69abccac77a6fe816", e.GATEKEEPER_URL = "https://stackedit-io-tumblr-proxy.herokuapp.com/"), 
+ e.GITHUB_CLIENT_ID = "2cc69abccac77a6fe816", e.GATEKEEPER_URL = "https://mfs-gatekeeper.herokuapp.com/"), 
  e.THEME_LIST = {
   blue: "Blue",
   "default": "Default",
