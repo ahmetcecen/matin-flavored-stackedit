@@ -6905,7 +6905,7 @@ var saveAs = saveAs || function(e) {
  e.GOOGLE_ANALYTICS_ACCOUNT_ID = "UA-65639202-1", e.GOOGLE_API_KEY = "AIzaSyAWRIP30sewotZNcQylIu8UUthPLGX08QY", 
  e.GOOGLE_DRIVE_APP_ID = "6661919703", e.BASE_URL = "https://matin-flavored-stackedit.herokuapp.com/", 
  e.GOOGLE_CLIENT_ID = "6661919703-bq691f2tjn546b7j7g7dlv5tp2dekjc5.apps.googleusercontent.com", 
- e.GITHUB_CLIENT_ID = "2cc69abccac77a6fe816", e.GATEKEEPER_URL = "https://mfs-gatekeeper.herokuapp.com/", 
+ e.GITHUB_CLIENT_ID = "f7de40a78c197ae728de", e.GATEKEEPER_URL = "https://mfs-gatekeeper.herokuapp.com/", 
  e.DROPBOX_APP_KEY = "lq6mwopab8wskas", e.DROPBOX_APP_SECRET = "851fgnucpezy84t", 
  e.DROPBOX_RESTRICTED_APP_KEY = "sw0hlixhr8q1xk0", e.DROPBOX_RESTRICTED_APP_SECRET = "1r808p2xygs6lbg", 
  e.BITLY_ACCESS_TOKEN = "317e033bfd48cf31155a68a536b1860013b09c4c", e.DEFAULT_FILE_TITLE = "Title", 

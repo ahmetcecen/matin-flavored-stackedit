@@ -7,7 +7,7 @@ define([], function() {
 	constants.GOOGLE_DRIVE_APP_ID = "6661919703";	
 	constants.BASE_URL = "https://matin-flavored-stackedit.herokuapp.com/";
 	constants.GOOGLE_CLIENT_ID = '6661919703-bq691f2tjn546b7j7g7dlv5tp2dekjc5.apps.googleusercontent.com';
-	constants.GITHUB_CLIENT_ID = '2cc69abccac77a6fe816';
+	constants.GITHUB_CLIENT_ID = 'f7de40a78c197ae728de';
 	constants.GATEKEEPER_URL = "https://mfs-gatekeeper.herokuapp.com/";
 
 	// No Need to Edit Below
