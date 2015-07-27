@@ -1,8 +1,8 @@
 {
-  "name": "stackedit",
+  "name": "MATINFlavoredStackEdit",
   "version": "4.3.11",
   "private": true,
-  "description": "StackEdit is a free, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites.",
+  "description": "MATINFlavoredStackEdit is a specialized version of StackEdit for Project-Pages",
   "main": "res/main.js",
   "engines": {
     "node": "0.10.x"
