@@ -1,7 +1,7 @@
 MATIN Flavored StackEdit
 =========
 
-MATIN Flavored StackEdit is specialized instance of [StackEdit](https://stackedit.io/), an open-source Markdown editor based on PageDown. For a deatiled guide on how to use it with Project-Pages, head over to [PPGuide]](http://matin-hub.github.io/ppguide/)!
+MATIN Flavored StackEdit is specialized instance of [StackEdit](https://stackedit.io/), an open-source Markdown editor based on PageDown. For a deatiled guide on how to use it with Project-Pages, head over to [PPGuide](http://matin-hub.github.io/ppguide/)!
 
 Main showcase: https://matin-flavored-stackedit.herokuapp.com/
 
