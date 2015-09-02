@@ -12,7 +12,7 @@ define([
 		fontSizeRatio: 1,
 		maxWidthRatio: 1,
 		cursorFocusRatio: 0.5,
-		defaultContent: "\n\n\n> Written with [MATIN Flavored StackEdit](" + constants.MAIN_URL + ").",
+		defaultContent: "",
 		commitMsg: "Published with MATIN Flavored StackEdit",
 		conflictMode: 'merge',
 		markdownMimeType: 'text/plain',
