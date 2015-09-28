@@ -24264,7 +24264,7 @@ this.DIFF_EQUAL = DIFF_EQUAL, define("diff_match_patch_uncompressed", function(e
    height: window.innerHeight
   }; ;) {
    if (b.y = w.isOpen ? 0 : -P, b.x = S.isOpen ? 0 : C.isOpen ? -(B + j) : -B, b.width = v.width + B + j, 
-   b.height = v.height - b.y, y.left = B, y.width = v.width, y.height = b.height, x.top = "100px", 
+   b.height = v.height - b.y, y.left = B, y.width = v.width, y.height = b.height, x.top = 100, 
    x.width = v.width, x.height = b.height - P, b.applyCss(), y.applyCss(), x.applyCss(), 
    window.viewerMode) return k.width = x.width, k.height = x.height, E.width = x.width, 
    E.height = x.height, k.applyCss(), E.applyCss(), f();

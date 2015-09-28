@@ -287,7 +287,7 @@ define([
 			wrapperL2.height = wrapperL1.height;
 
 			// Layout wrapper level 3
-			wrapperL3.top = '100px';
+			wrapperL3.top = 100;
 			wrapperL3.width = windowSize.width;
 			wrapperL3.height = wrapperL1.height - navbarHeight;
 
