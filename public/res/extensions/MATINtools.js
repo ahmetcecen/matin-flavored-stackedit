@@ -88,6 +88,12 @@ define([
 			 
          return yyyy+'-'+mm+'-'+dd+' '+hh+':'+min;
     } 
+	
+	var num = 1;
+	function numincrement() {
+		return num++;
+	}
+
 
     MATINtools.onReady = function() {
         if( location.pathname === '/viewer' ) {
@@ -114,6 +120,10 @@ define([
                  '    <option value="blank"></option>' + 
                  '    <option value="hs">Horizontal Slide</option>' + 
                  '    <option value="vs">Vertical Slide</option>' +	 
+				 '    <option value="blank"></option>' + 
+				 '    <option value="IS">Imported Slides</option>' +	 
+				 '    <option value="IS5">Imported Slides (5)</option>' +	 
+				 '    <option value="IS20">Imported Slides (20)</option>' +	 
                  '</select></li></ul>';
 
         var snipps = {
@@ -147,6 +157,15 @@ define([
                     if( 'today' === val ) {
                         val = getToday();
 					}
+					else if( 'IS' === val ) {
+						val = '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n';
+					}
+					else if( 'IS5' === val ) {
+						val = '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n';
+					}
+					else if( 'IS20' === val ) {
+						val = '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n';
+					}
                     else {
                         val = snipps[val];
 					}
@@ -172,6 +191,15 @@ define([
                     // Today has a custom action
                     if( 'today' === val ) {
                         val = getToday();
+					}
+					else if( 'IS' === val ) {
+						val = '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n';
+					}
+					else if( 'IS5' === val ) {
+						val = '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n';
+					}
+					else if( 'IS20' === val ) {
+					val = '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n' + '<section data-background-image="Slide' + numincrement() + '.png" data-background-size="contain"></section>\n';
 					}
                     else {
                         val = snipps[val];
